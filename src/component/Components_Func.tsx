@@ -168,7 +168,7 @@ const filterInputTags = (
               };
             })
           }
-          value={currentData.c_data.episodes}
+          value={currentData.c_data.episode}
         />
       </>
     );

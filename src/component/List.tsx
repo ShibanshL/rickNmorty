@@ -121,7 +121,7 @@ function List() {
         current: "location",
         c_data: {
           name: "",
-          episodes: "",
+          episode: "",
         },
       };
       setCData(localVar);
