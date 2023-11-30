@@ -162,7 +162,7 @@ const filterInputTags = (
           className="h-[55%] w-[50%] outline-none border-[3px] border-gray-300 rounded-md pl-[5px] pr-[5px]"
           onChange={(e: any) =>
             setCData((prevState: any) => {
-              prevState.c_data.episodes = e.target.value;
+              prevState.c_data.episode = e.target.value;
               return {
                 ...prevState,
               };
@@ -208,7 +208,7 @@ const checkButton = (currentButton: string, setCData: (e: any) => void) => {
       current: "episode",
       c_data: {
         name: "",
-        episodes: "",
+        episode: "",
       },
     };
     setCData(test);
